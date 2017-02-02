@@ -11,5 +11,9 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="exercises_main" target="1.8" />
+      <module name="exercises_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
