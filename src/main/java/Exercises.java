@@ -38,10 +38,10 @@ public class Exercises{
     }
 
     private static void printFizzBuzzMenu() {
-        System.out.println("- FizzBuzz Exercises");
+        System.out.println("- FizzBuzz");
     }
 
     private static void printPrimeFactorsMenu() {
-        System.out.println("- Prime Factors Exercises");
+        System.out.println("- Prime Factors");
     }
 }

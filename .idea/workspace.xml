@@ -8,7 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Exerciser.class" afterPath="$PROJECT_DIR$/build/classes/main/Exerciser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Exercises.class" afterPath="$PROJECT_DIR$/build/classes/main/Exercises.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exercises.jar" afterPath="$PROJECT_DIR$/build/libs/exercises.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -39,29 +38,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="338">
+              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exerciser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exerciser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exerciser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="218">
+              <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
-                <element signature="e#4245#4246#0" expanded="true" />
-                <element signature="e#4284#4285#0" expanded="true" />
+                <element signature="e#4761#4762#0" expanded="true" />
+                <element signature="e#4800#4801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -357,8 +356,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Exercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exerciser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercises.java" />
       </list>
     </option>
   </component>
@@ -476,32 +475,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exerciser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,26 +866,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exerciser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="218">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding>
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#4761#4762#0" expanded="true" />
+            <element signature="e#4800#4801#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exerciser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="59" column="52" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="338">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
-            <element signature="e#4245#4246#0" expanded="true" />
-            <element signature="e#4284#4285#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
           </folding>
         </state>
       </provider>

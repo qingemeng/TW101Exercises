@@ -48,10 +48,30 @@ public class Exerciser {
                 n = reader.nextLine();
                 printDiamondWithName(Integer.parseInt(n));
                 break;
-            case "fizzbuzz exercises":
+            case "fizzbuzz":
+                printFizzbuzz(1, 100);
                 break;
-            case "prime factors exercises":
+            case "prime factors":
                 break;
+        }
+    }
+
+    private void printFizzbuzz(int start, int end) {
+        String output;
+        for (int i = start; i <= end; i++){
+            if (i % 15 == 0){
+                output = "FizzBuzz";
+            }
+            else if (i % 3 == 0){
+                output = "Fizz";
+            }
+            else if (i % 5 == 0){
+                output = "Buzz";
+            }
+            else {
+                output = String.valueOf(i);
+            }
+            System.out.println(output);
         }
     }
 
