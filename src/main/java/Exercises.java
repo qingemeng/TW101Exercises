@@ -8,10 +8,9 @@ public class Exercises{
             Scanner reader = new Scanner(System.in);
             option = reader.nextLine();
             Exerciser exerciser = Exerciser.getInstance();
-            exerciser.doExercise(option);
+            exerciser.doExercise(option, reader);
             System.out.println();
         }
-
     }
 
     private static void printMenu() {
