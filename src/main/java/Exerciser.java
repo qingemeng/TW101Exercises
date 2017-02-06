@@ -19,39 +19,47 @@ class Exerciser {
         switch (option.trim().toLowerCase()){
             case "easiest exercise ever":
                 printStar();
+                System.out.println();
                 break;
             case "draw a horizontal line":
                 System.out.println("Number of asterisks :");
                 n = reader.nextLine();
                 printHorizontalLine(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "draw a vertical line":
                 System.out.println("Number of asterisks :");
                 n = reader.nextLine();
                 printVerticalLine(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "draw a right triangle":
                 System.out.println("Number of Lines :");
                 n = reader.nextLine();
                 printRightTriangle(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "isosceles triangle":
                 System.out.println("Number of Lines :");
                 n = reader.nextLine();
                 printIsoscelesTriangle(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "diamond":
                 System.out.println("Number of Lines :");
                 n = reader.nextLine();
                 printDiamond(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "diamond with name":
                 System.out.println("Number of Lines :");
                 n = reader.nextLine();
                 printDiamondWithName(Integer.parseInt(n));
+                System.out.println();
                 break;
             case "fizzbuzz":
                 printFizzbuzz(1, 100);
+                System.out.println();
                 break;
             case "prime factors":
                 System.out.println("Enter a number :");
@@ -109,11 +117,11 @@ class Exerciser {
             else {
                 output = String.valueOf(i);
             }
-            System.out.println(output);
+            System.out.print(output);
         }
     }
 
-    private void printDiamondWithName(int n) {
+    void printDiamondWithName(int n) {
         int nRow = n * 2 -1;
         int nColumn = n * 2 - 1;
         int middle = (nColumn - 1)/2;
@@ -127,10 +135,9 @@ class Exerciser {
             fillDiamondByRow(nColumn, lowerBound, upperBound);
             System.out.println();
         }
-        System.out.println();
     }
 
-    private void printDiamond(int n) {
+    void printDiamond(int n) {
         int nRow = n * 2 -1;
         int nColumn = n * 2 - 1;
         int middle = (nColumn - 1)/2;
@@ -140,7 +147,6 @@ class Exerciser {
             fillDiamondByRow(nColumn, lowerBound, upperBound);
             System.out.println();
         }
-        System.out.println();
     }
 
     private void fillDiamondByRow(int nColumn, int lowerBound, int upperBound) {
@@ -153,45 +159,41 @@ class Exerciser {
         }
     }
 
-    private void printIsoscelesTriangle(int nRow) {
+    void printIsoscelesTriangle(int nRow) {
         int nColumn = nRow * 2 - 1;
         int middle = (nColumn - 1)/2;
         for (int i = 0; i < nRow ; i++){
             fillDiamondByRow(nColumn, middle - i, middle + i);
             System.out.println();
         }
-        System.out.println();
     }
 
-    private void printRightTriangle(int n) {
+    void printRightTriangle(int n) {
         for (int i = 0; i < n ; i++){
             for(int j = 0; j <= i; j++){
                 System.out.print("*");
             }
             System.out.println();
         }
-        System.out.println();
     }
 
-    private void printHorizontalLine(int n) {
+    void printHorizontalLine(int n) {
         while(n > 0){
             System.out.print("*");
             n--;
         }
-        System.out.println();
     }
 
 
-    private void printVerticalLine(int n) {
+    void printVerticalLine(int n) {
         while(n > 0){
             System.out.print("*");
             System.out.println();
             n--;
         }
-        System.out.println();
     }
 
-    private void printStar() {
-        System.out.println("*");
+    void printStar() {
+        System.out.print("*");
     }
 }
