@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f981d811-fad1-4c63-9792-88ebc52d10ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ExerciserTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Library.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exerciser.java" afterPath="$PROJECT_DIR$/src/main/java/Exerciser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ExerciserTest.java" afterPath="$PROJECT_DIR$/src/test/java/ExerciserTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="46" />
+              <caret line="25" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="e#1305#1306#0" expanded="true" />
                 <element signature="e#1353#1354#0" expanded="true" />
@@ -46,22 +43,22 @@
       <file leaf-file-name="Exerciser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exerciser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-802">
-              <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="522">
+              <caret line="119" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5849#5850#0" expanded="true" />
-                <element signature="e#5886#5887#0" expanded="true" />
+                <element signature="e#5835#5836#0" expanded="true" />
+                <element signature="e#5872#5873#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciserTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExerciserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExerciserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,6 +85,7 @@
       <find>printIsoscelesTriangle</find>
       <find>printDiamond</find>
       <find>printDiamondWithName</find>
+      <find>assertEquals</find>
       <find>printFizzbuzz</find>
     </findStrings>
   </component>
@@ -372,8 +370,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Exercises.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ExerciserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exerciser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExerciserTest.java" />
       </list>
     </option>
   </component>
@@ -561,28 +559,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExerciserTest.printDiamondWithNameWithEvenInputShouldPrintCorrectly">
-    <configuration default="false" name="ExerciserTest.printIsoscelesTriangleWithEvenInputShouldPrintCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="exercises_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExerciserTest" />
-      <option name="METHOD_NAME" value="printIsoscelesTriangleWithEvenInputShouldPrintCorrectly" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExerciserTest">
     <configuration default="false" name="ExerciserTest.printIsoscelesTriangleWithOddInputShouldPrintCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="exercises_test" />
@@ -655,6 +632,27 @@
       <option name="MAIN_CLASS_NAME" value="ExerciserTest" />
       <option name="METHOD_NAME" value="printDiamondWithNameWithEvenInputShouldPrintCorrectly" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="exercises_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExerciserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -954,19 +952,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JAR Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithEvenInputShouldPrintCorrectly" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithOddInputShouldPrintCorrectly" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithEvenInputShouldPrintCorrectly" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithOddInputShouldPrintCorrectly" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithNameWithEvenInputShouldPrintCorrectly" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithOddInputShouldPrintCorrectly" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithEvenInputShouldPrintCorrectly" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithOddInputShouldPrintCorrectly" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithNameWithEvenInputShouldPrintCorrectly" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ExerciserTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithNameWithEvenInputShouldPrintCorrectly" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithOddInputShouldPrintCorrectly" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithEvenInputShouldPrintCorrectly" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithOddInputShouldPrintCorrectly" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithEvenInputShouldPrintCorrectly" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExerciserTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithNameWithEvenInputShouldPrintCorrectly" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithOddInputShouldPrintCorrectly" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printDiamondWithEvenInputShouldPrintCorrectly" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExerciserTest.printIsoscelesTriangleWithOddInputShouldPrintCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -990,6 +988,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ExerciserTest - 2017.02.06 at 22h 49m 45s.xml">
+      <configuration name="ExerciserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExerciserTest - 2017.02.06 at 22h 50m 48s.xml">
+      <configuration name="ExerciserTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ExerciserTest_printDiamondWithEvenInputShouldPrintCorrectly - 2017.02.04 at 11h 34m 39s.xml">
       <configuration name="ExerciserTest.printDiamondWithEvenInputShouldPrintCorrectly" configurationId="JUnit" />
     </history-entry>
@@ -1013,12 +1017,6 @@
     </history-entry>
     <history-entry file="ExerciserTest_printRightTriangleWithOddInputShouldPrintCorrectly - 2017.02.04 at 11h 25m 15s.xml">
       <configuration name="ExerciserTest.printRightTriangleWithOddInputShouldPrintCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExerciserTest_printVerticalLineShouldPrintCorrectly - 2017.02.04 at 11h 20m 07s.xml">
-      <configuration name="ExerciserTest.printVerticalLineShouldPrintCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExerciserTest_printVerticalLineShouldPrintCorrectly - 2017.02.04 at 11h 20m 31s.xml">
-      <configuration name="ExerciserTest.printVerticalLineShouldPrintCorrectly" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1045,8 +1043,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26517573" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26517573" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32800853" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16008538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1092,37 +1090,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exerciser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="522">
+          <caret line="119" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5849#5850#0" expanded="true" />
-            <element signature="e#5886#5887#0" expanded="true" />
+            <element signature="e#5835#5836#0" expanded="true" />
+            <element signature="e#5872#5873#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExerciserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
           </folding>
         </state>
       </provider>

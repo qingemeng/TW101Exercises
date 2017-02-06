@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExerciserTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-02-06T14:51:26" hostname="qgm" time="0.012">
+  <properties/>
+  <testcase name="printDiamondWithNameWithEvenInputShouldPrintCorrectly" classname="ExerciserTest" time="0.003"/>
+  <testcase name="printIsoscelesTriangleWithEvenInputShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="generateFactorsForPrimeShouldReturnItself" classname="ExerciserTest" time="0.001"/>
+  <testcase name="printDiamondWithNameWithOddInputShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printHorizontalLineShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="generateFactorsWithDuplicatedFactors" classname="ExerciserTest" time="0.0"/>
+  <testcase name="generateFactorsForOneShouldReturnEmptyList" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printDiamondWithEvenInputShouldPrintCorrectly" classname="ExerciserTest" time="0.001"/>
+  <testcase name="printVerticalLineShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printRightTriangleWithEvenInputShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printRightTriangleWithOddInputShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printIsoscelesTriangleWithOddInputShouldPrintCorrectly" classname="ExerciserTest" time="0.0"/>
+  <testcase name="generateFactorsWithoutDuplicatedFactors" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printDiamondWithOddInputShouldPrintCorrectly" classname="ExerciserTest" time="0.001"/>
+  <testcase name="printFizzBussInterval" classname="ExerciserTest" time="0.0"/>
+  <testcase name="printStarShouldPrintAsterisk" classname="ExerciserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

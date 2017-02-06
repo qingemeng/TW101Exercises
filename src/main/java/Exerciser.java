@@ -76,7 +76,7 @@ class Exerciser {
         }
     }
 
-    private List<Integer> generate(int n) {
+    List<Integer> generate(int n) {
         List<Integer> factors = new ArrayList<>();
         while(n > 1){
             int factor = findPrimeFactor(n);
@@ -102,7 +102,7 @@ class Exerciser {
         return n;
     }
 
-    private void printFizzbuzz(int start, int end) {
+    void printFizzbuzz(int start, int end) {
         String output;
         for (int i = start; i <= end; i++){
             if (i % 15 == 0){
@@ -117,7 +117,7 @@ class Exerciser {
             else {
                 output = String.valueOf(i);
             }
-            System.out.print(output);
+            System.out.println(output);
         }
     }
 

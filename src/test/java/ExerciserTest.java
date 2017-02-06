@@ -4,12 +4,13 @@ import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
+import java.util.List;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class ExerciserTest {
     private ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-    Exerciser exerciser = Exerciser.getInstance();
+    private Exerciser exerciser = Exerciser.getInstance();
 
     @Before
     public void setUpStreams() {
@@ -87,4 +88,55 @@ public class ExerciserTest {
         assertEquals("  *  \n *** \nGemeng\n *** \n  *  \n", outputStream.toString());
     }
 
+    @Test
+    public void printFizzBussInterval() throws Exception {
+        exerciser.printFizzbuzz(1, 15);
+        assertEquals(
+                "1\n" +
+                        "2\n" +
+                        "Fizz\n" +
+                        "4\n" +
+                        "Buzz\n" +
+                        "Fizz\n" +
+                        "7\n" +
+                        "8\n" +
+                        "Fizz\n" +
+                        "Buzz\n" +
+                        "11\n" +
+                        "Fizz\n" +
+                        "13\n" +
+                        "14\n" +
+                        "FizzBuzz\n", outputStream.toString());
+
+    }
+
+    @Test
+    public void generateFactorsWithoutDuplicatedFactors() throws Exception {
+        List<Integer> factors = exerciser.generate(30);
+        assertEquals(3, factors.size());
+        assertEquals(2, factors.get(0).intValue());
+        assertEquals(3, factors.get(1).intValue());
+        assertEquals(5, factors.get(2).intValue());
+    }
+
+    @Test
+    public void generateFactorsWithDuplicatedFactors() throws Exception {
+        List<Integer> factors = exerciser.generate(36);
+        assertEquals(2, factors.size());
+        assertEquals(2, factors.get(0).intValue());
+        assertEquals(3, factors.get(1).intValue());
+    }
+
+    @Test
+    public void generateFactorsForOneShouldReturnEmptyList() throws Exception {
+        List<Integer> factors = exerciser.generate(1);
+        assertEquals(0, factors.size());
+    }
+
+    @Test
+    public void generateFactorsForPrimeShouldReturnItself() throws Exception {
+        List<Integer> factors = exerciser.generate(13);
+        assertEquals(1, factors.size());
+        assertEquals(13, factors.get(0).intValue());
+    }
 }
